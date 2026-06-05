@@ -15,8 +15,3 @@ while True :
     ariel.pos = vec(50*cos(t),0,50*sin(t))
     umbriel.pos = vec(-50*cos(t),0,-50*sin(t))
     uranus.pos = vec(0*cos(t), 0*sin(t), 0.1) 
-    s = uranus
-    k = keysdown()
-    if 'left' in k :
-     for c in k :
-         c.rotate(angle=v/200, axis=vec(0,0,1), origin=vec(0,0,0))
